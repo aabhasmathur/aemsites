@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/aemsites-sites/:/",
-    "/content/aemsites-sites/configuration:/.helix/config.json",
-    "/content/aemsites-sites/metadata:/metadata.json"
+    "/content/aemsites-site/:/",
+    "/content/aemsites-site/configuration:/.helix/config.json",
+    "/content/aemsites-site/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aemsites-sites/"
+    "/content/aemsites-site/"
   ]
 }
