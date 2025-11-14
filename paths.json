@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/newaemsite/:/a",
-    "/content/newaemsite/configuration:/.helix/config.json",
-    "/content/newaemsite/metadata:/metadata.json"
+    "/content/aabhas-eds/:/",
+    "/content/aabhas-eds/configuration:/.helix/config.json",
+    "/content/aabhas-eds/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/newaemsite/"
+    "/content/aabhas-eds/"
   ]
 }
