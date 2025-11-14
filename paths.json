@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/NewAEMSite/:/",
-    "/content/NewAEMSite/configuration:/.helix/config.json",
-    "/content/NewAEMSite/metadata:/metadata.json"
+    "/content/newaemsite/:/a",
+    "/content/newaemsite/configuration:/.helix/config.json",
+    "/content/newaemsite/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/NewAEMSite/"
+    "/content/newaemsite/"
   ]
 }
