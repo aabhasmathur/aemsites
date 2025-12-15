@@ -1,0 +1,35 @@
+{
+  "definitions": [
+    {
+      "title": "Image",
+      "id": "image_custom",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/image/v1/image",
+            "template": {}
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "image_custom",
+      "fields": [
+        {
+          "component": "reference",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "name": "imageAlt",
+          "label": "Alt Text"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}
