@@ -157,24 +157,16 @@
       },
       {
         "component": "select",
-        "name": "aspectRatio",
-        "label": "Aspect Ratio",
+        "name": "color",
+        "label": "Color",
         "options": [
           {
-            "value": "square",
-            "text": "Square (1:1)"
+            "name": "White",
+            "value": "sovm_title--color-white"
           },
           {
-            "value": "16:9",
-            "text": "Wide (16:9)"
-          },
-          {
-            "value": "4:3",
-            "text": "Standard (4:3)"
-          },
-          {
-            "value": "3:2",
-            "text": "Classic (3:2)"
+            "name": "Black",
+            "value": "sovm_title--color-black"
           }
         ]
       }
