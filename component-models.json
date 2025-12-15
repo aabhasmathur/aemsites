@@ -36,6 +36,34 @@
         "component": "text",
         "name": "imageAlt",
         "label": "Alt Text"
+      },
+      {
+        "component": "select",
+        "name": "aspectRatio",
+        "label": "Aspect Ratio",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Auto",
+            "value": "auto"
+          },
+          {
+            "name": "16:9",
+            "value": "16-9"
+          },
+          {
+            "name": "4:3",
+            "value": "4-3"
+          },
+          {
+            "name": "1:1",
+            "value": "1-1"
+          },
+          {
+            "name": "3:4",
+            "value": "3-4"
+          }
+        ]
       }
     ]
   },
@@ -142,21 +170,18 @@
     ]
   },
   {
-    "id": "image-custom",
+    "id": "image",
     "fields": [
       {
         "component": "reference",
-        "valueType": "string",
         "name": "image",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
-        "valueType": "string",
         "name": "imageAlt",
-        "label": "Alt Text",
-        "required": true
+        "label": "Alt Text"
       },
       {
         "component": "select",
@@ -183,30 +208,6 @@
           {
             "name": "3:4",
             "value": "3-4"
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "sizePreset",
-        "label": "Image Size",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Responsive (Auto)",
-            "value": "auto"
-          },
-          {
-            "name": "Small",
-            "value": "sm"
-          },
-          {
-            "name": "Medium",
-            "value": "md"
-          },
-          {
-            "name": "Large",
-            "value": "lg"
           }
         ]
       }
