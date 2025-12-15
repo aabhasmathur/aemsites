@@ -3,7 +3,7 @@
   "definitions": [
     {
       "title": "Image Custom",
-      "id": "image-custom",
+      "id": "image_custom",
       "plugins": {
         "xwalk": {
           "page": {
@@ -23,7 +23,7 @@
   ],
   "models": [
     {
-      "id": "image-custom",
+      "id": "image_custom",
       "fields": [
         {
           "component": "reference",

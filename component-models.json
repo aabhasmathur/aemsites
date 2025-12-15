@@ -142,7 +142,7 @@
     ]
   },
   {
-    "id": "image-custom",
+    "id": "image_custom",
     "fields": [
       {
         "component": "reference",
