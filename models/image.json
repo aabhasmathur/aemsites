@@ -1,13 +1,19 @@
 {
   "definitions": [
     {
-      "$ref": "/models/_image.json"
+      "$ref":  "/models/_image.json"
     }
   ],
   "models": [
     {
       "id": "image",
       "fields": [
+          {
+          "component": "reference",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
         {
           "component": "select",
           "name": "aspect-ratio",
