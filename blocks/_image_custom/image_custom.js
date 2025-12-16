@@ -9,10 +9,14 @@ export default function decorate(block) {
     block.classList.add(`size-${sizePreset}`);
   }
 
-  // Optional: If you need to decorate the image element further, add logic here
-  // For example, to set alt text or apply to the img tag
+  // Remove width and height attributes from img to allow CSS aspect-ratio to work
   const img = block.querySelector('img');
-  if (img && block.dataset.imageAlt) {
-    img.setAttribute('alt', block.dataset.imageAlt);
+  if (img) {
+    img.removeAttribute('width');
+    img.removeAttribute('height');
+    // Set alt text if provided
+    if (block.dataset.imageAlt) {
+      img.setAttribute('alt', block.dataset.imageAlt);
+    }
   }
 }

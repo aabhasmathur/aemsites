@@ -1,6 +1,8 @@
 .image-custom img {
   /* Default aspect ratio if none selected */
   aspect-ratio: auto;
+  width: 100%;
+  height: auto;
 }
 
 .image-custom.aspect-16-9 img {
@@ -21,4 +23,21 @@
 
 .image-custom.aspect-auto img {
   aspect-ratio: auto;
+}
+
+/* Size presets */
+.image-custom.size-auto img {
+  width: 100%;
+}
+
+.image-custom.size-sm img {
+  width: 300px;
+}
+
+.image-custom.size-md img {
+  width: 600px;
+}
+
+.image-custom.size-lg img {
+  width: 900px;
 }
