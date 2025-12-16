@@ -1,8 +1,15 @@
 .customimage picture,
 
-.customimage img {
+.imagerandom img {
   width: 10%;
   height: auto;
+  background-color: red;
+}
+
+.imagerandom-wrapper {
+  width: 10%;
+  height: auto;
+  background-color: red;
 }
 
 .customimage.aspect-16-9 img {
