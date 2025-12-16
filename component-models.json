@@ -64,6 +64,30 @@
             "value": "3-4"
           }
         ]
+      },
+      {
+        "component": "select",
+        "name": "sizePreset",
+        "label": "Image Size",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Responsive (Auto)",
+            "value": "auto"
+          },
+          {
+            "name": "Small",
+            "value": "sm"
+          },
+          {
+            "name": "Medium",
+            "value": "md"
+          },
+          {
+            "name": "Large",
+            "value": "lg"
+          }
+        ]
       }
     ]
   },
