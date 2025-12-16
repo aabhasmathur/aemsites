@@ -205,9 +205,7 @@
       {
         "component": "text",
         "name": "imageAlt",
-        "label": "Alt Text",
-        "valueType": "string",
-        "value": "hello"
+        "label": "Alt Text"
       },
       {
         "component": "select",
