@@ -1,39 +1,43 @@
-/* The <p> is the layout container */
-.block.image {
-  background: red;
-}
-
-
-.block.image p {
+.image-custom img {
+  /* Default aspect ratio if none selected */
+  aspect-ratio: auto;
   width: 100%;
-  overflow: hidden;
+  height: auto;
 }
 
-/* Image fills the container */
-.block.image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Aspect ratios applied to <p> */
-.block.image.aspect-ratio-16-9 p {
+.image-custom.aspect-16-9 img {
   aspect-ratio: 16 / 9;
-  background: red;
 }
 
-.block.image.aspect-ratio-4-3 p {
+.image-custom.aspect-4-3 img {
   aspect-ratio: 4 / 3;
 }
 
-.block.image.aspect-ratio-1-1 p {
+.image-custom.aspect-1-1 img {
   aspect-ratio: 1 / 1;
 }
 
-.block.image.aspect-ratio-3-4 p {
+.image-custom.aspect-3-4 img {
   aspect-ratio: 3 / 4;
 }
 
-.block.image.aspect-ratio-auto p {
+.image-custom.aspect-auto img {
   aspect-ratio: auto;
+}
+
+/* Size presets */
+.image-custom.size-auto img {
+  width: 100%;
+}
+
+.image-custom.size-sm img {
+  width: 300px;
+}
+
+.image-custom.size-md img {
+  width: 600px;
+}
+
+.image-custom.size-lg img {
+  width: 900px;
 }
