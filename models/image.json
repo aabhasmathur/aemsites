@@ -1,0 +1,27 @@
+{
+  "definitions": [
+    {
+      "$ref": "/models/_image.json"
+    }
+  ],
+  "models": [
+    {
+      "id": "image",
+      "fields": [
+        {
+          "component": "select",
+          "name": "aspect-ratio",
+          "label": "Aspect Ratio",
+          "valueType": "string",
+          "options": [
+            { "name": "Auto", "value": "auto" },
+            { "name": "16:9", "value": "16:9" },
+            { "name": "4:3", "value": "4:3" },
+            { "name": "1:1", "value": "1:1" },
+            { "name": "3:4", "value": "3:4" }
+          ]
+        }
+      ]
+    }
+  ]
+}
