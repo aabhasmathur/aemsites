@@ -1,4 +1,9 @@
 /* The <p> is the layout container */
+.block.image {
+  background: red;
+}
+
+
 .block.image p {
   width: 100%;
   overflow: hidden;
