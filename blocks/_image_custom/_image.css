@@ -1,4 +1,5 @@
-.block.image-custom.aspect-ratio-16-9 picture {
+
+.image-custom.aspect-ratio-16-9 picture {
   aspect-ratio: 16 / 9;
   width: 30px; 
   height: 20px;
