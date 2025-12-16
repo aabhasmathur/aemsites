@@ -84,15 +84,7 @@
       "components": [
         {
           "title": "Image-random",
-          "id": "image-custom",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/image/v1/image",
-                "template": {}
-              }
-            }
-          }
+          "id": "image-custom"
         },
         {
           "title": "Cards",
