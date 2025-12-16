@@ -15,6 +15,11 @@
           "multi": false
         },
         {
+          "component": "text",
+          "name": "alt",
+          "label": "Alt Text"
+        },
+        {
           "component": "select",
           "name": "aspect-ratio",
           "label": "Aspect Ratio",
