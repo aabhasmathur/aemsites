@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Image-Custom",
+      "title": "Image-random",
       "id": "image-custom",
       "plugins": {
         "xwalk": {
