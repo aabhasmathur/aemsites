@@ -84,7 +84,7 @@
       "components": [
         {
           "title": "Image",
-          "id": "image",
+          "id": "image-custom",
           "plugins": {
             "xwalk": {
               "page": {

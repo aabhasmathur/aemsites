@@ -1,19 +1,19 @@
-.block.image.aspect-ratio-16-9 picture {
+.block.image-custom.aspect-ratio-16-9 picture {
   aspect-ratio: 16 / 9;
 }
 
-.block.image.aspect-ratio-4-3 picture {
+.block.image-custom.aspect-ratio-4-3 picture {
   aspect-ratio: 4 / 3;
 }
 
-.block.image.aspect-ratio-1-1 picture {
+.block.image-custom.aspect-ratio-1-1 picture {
   aspect-ratio: 1 / 1;
 }
 
-.block.image.aspect-ratio-3-4 picture {
+.block.image-custom.aspect-ratio-3-4 picture {
   aspect-ratio: 3 / 4;
 }
 
-.block.image.aspect-ratio-auto picture {
+.block.image-custom.aspect-ratio-auto picture {
   aspect-ratio: auto;
 }

@@ -170,7 +170,7 @@
     ]
   },
   {
-    "id": "image",
+    "id": "image-custom",
     "fields": [
       {
         "component": "reference",
