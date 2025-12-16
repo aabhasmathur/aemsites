@@ -31,7 +31,7 @@
           }
         },
         {
-          "title": "Image",
+          "title": "Custom Image",
           "id": "image",
           "plugins": {
             "xwalk": {
