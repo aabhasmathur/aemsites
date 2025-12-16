@@ -1,6 +1,6 @@
 {
   "definitions": [
-    {
+    { 
       "title": "Hero",
       "id": "hero",
       "plugins": {

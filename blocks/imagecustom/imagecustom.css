@@ -1,7 +1,6 @@
 .imagecustom picture,
 
 .imagecustom img {
-  /* Default aspect ratio if none selected */
   width: 10%;
   height: auto;
 }
@@ -28,7 +27,7 @@
   aspect-ratio: auto;
 }
 
-/* Size presets */
+
 .imagecustom.size-auto img {
   width: 100%;
 }
