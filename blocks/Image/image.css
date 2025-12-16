@@ -1,32 +1,33 @@
-.block.image picture {
+/* The <p> is the layout container */
+.block.image p {
   width: 100%;
-  display: block;
   overflow: hidden;
 }
 
+/* Image fills the container */
 .block.image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Aspect ratio handling */
-.block.image.aspect-ratio-16-9 picture {
+/* Aspect ratios applied to <p> */
+.block.image.aspect-ratio-16-9 p {
   aspect-ratio: 16 / 9;
 }
 
-.block.image.aspect-ratio-4-3 picture {
+.block.image.aspect-ratio-4-3 p {
   aspect-ratio: 4 / 3;
 }
 
-.block.image.aspect-ratio-1-1 picture {
+.block.image.aspect-ratio-1-1 p {
   aspect-ratio: 1 / 1;
 }
 
-.block.image.aspect-ratio-3-4 picture {
+.block.image.aspect-ratio-3-4 p {
   aspect-ratio: 3 / 4;
 }
 
-.block.image.aspect-ratio-auto picture {
+.block.image.aspect-ratio-auto p {
   aspect-ratio: auto;
 }
