@@ -83,7 +83,7 @@
       "id": "blocks",
       "components": [
         {
-          "title": "Image",
+          "title": "Image-Custom",
           "id": "image-custom",
           "plugins": {
             "xwalk": {
