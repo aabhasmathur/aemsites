@@ -2,7 +2,7 @@
   "definitions": [
     {
       "title": "Image-random",
-      "id": "image-custom",
+      "id": "imagecustom",
     "plugins": {
         "xwalk": {
           "page": {
@@ -18,7 +18,7 @@
   ],
   "models": [
     {
-      "id": "image-custom",
+      "id": "imagecustom",
       "fields": [
         {
           "component": "reference",
