@@ -185,7 +185,7 @@
       },
       {
         "component": "select",
-        "name": "aspectRatio",
+        "name": "aspect-ratio",
         "label": "Aspect Ratio",
         "valueType": "string",
         "options": [
