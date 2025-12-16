@@ -27,6 +27,17 @@
     "id": "image",
     "fields": [
       {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "alt",
+        "label": "Alt Text"
+      },
+      {
         "component": "select",
         "name": "aspect-ratio",
         "label": "Aspect Ratio",

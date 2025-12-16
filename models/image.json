@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "$ref":  "/models/_image.json"
+      "$ref":  "/models/_image.json#/definitions"
     }
   ],
   "models": [
