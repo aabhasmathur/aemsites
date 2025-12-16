@@ -1,0 +1,45 @@
+.customimage picture,
+
+.customimage img {
+  width: 10%;
+  height: auto;
+}
+
+.customimage.aspect-16-9 img {
+  aspect-ratio: 16 / 9;
+  display: none;
+  width: 10%;
+}
+
+.customimage.aspect-4-3 img {
+  aspect-ratio: 4 / 3;
+}
+
+.customimage.aspect-1-1 img {
+  aspect-ratio: 1 / 1;
+}
+
+.customimage.aspect-3-4 img {
+  aspect-ratio: 3 / 4;
+}
+
+.customimage.aspect-auto img {
+  aspect-ratio: auto;
+}
+
+
+.customimage.size-auto img {
+  width: 100%;
+}
+
+.customimage.size-sm img {
+  width: 300px;
+}
+
+.customimage.size-md img {
+  width: 600px;
+}
+
+.customimage.size-lg img {
+  width: 900px;
+}

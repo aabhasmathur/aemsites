@@ -34,36 +34,8 @@
       },
       {
         "component": "text",
-        "name": "alt",
+        "name": "imageAlt",
         "label": "Alt Text"
-      },
-      {
-        "component": "select",
-        "name": "aspect-ratio",
-        "label": "Aspect Ratio",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Auto",
-            "value": "auto"
-          },
-          {
-            "name": "16:9",
-            "value": "16:9"
-          },
-          {
-            "name": "4:3",
-            "value": "4:3"
-          },
-          {
-            "name": "1:1",
-            "value": "1:1"
-          },
-          {
-            "name": "3:4",
-            "value": "3:4"
-          }
-        ]
       }
     ]
   },
@@ -208,43 +180,7 @@
     ]
   },
   {
-    "id": "fragment",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "reference",
-        "label": "Reference"
-      }
-    ]
-  },
-  {
-    "id": "hero",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "imagecustom",
+    "id": "customimage",
     "fields": [
       {
         "component": "reference",
@@ -308,6 +244,42 @@
             "value": "lg"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "fragment",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "reference",
+        "label": "Reference"
+      }
+    ]
+  },
+  {
+    "id": "hero",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   }

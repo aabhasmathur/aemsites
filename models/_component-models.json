@@ -3,7 +3,7 @@
     "...": "./_page.json#/models"
   },
   {
-    "...": "./image.json#/models"
+    "...": "./_image.json#/models"
   },
   {
     "...": "./_title.json#/models"
