@@ -9,6 +9,7 @@
 
 .image-custom.aspect-16-9 img {
   aspect-ratio: 16 / 9;
+  display: none;
 }
 
 .image-custom.aspect-4-3 img {
