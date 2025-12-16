@@ -83,10 +83,6 @@
       "id": "blocks",
       "components": [
         {
-          "title": "Image-random",
-          "id": "image-custom"
-        },
-        {
           "title": "Cards",
           "id": "cards",
           "plugins": {
