@@ -1,8 +1,6 @@
 
 .image-custom img {
   aspect-ratio: 16 / 9;
-  width: 30px; 
-  height: 20px;
   display: none;
 }
 
