@@ -248,7 +248,7 @@
     ]
   },
   {
-    "id": "customsection",
+    "id": "section",
     "fields": [
       {
         "component": "text",
@@ -257,54 +257,13 @@
         "description": "The label shown for this section in the Content Tree"
       },
       {
-        "component": "text",
-        "name": "content",
-        "label": "Content",
-        "description": "The text content for the inner text block"
-      },
-      {
-        "component": "select",
-        "name": "color",
-        "label": "Color",
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
         "options": [
           {
-            "name": "Green",
-            "value": "green"
-          },
-          {
-            "name": "Dark Blue",
-            "value": "dark-blue"
-          },
-          {
-            "name": "White",
-            "value": "white"
-          },
-          {
-            "name": "Light Blue",
-            "value": "light-blue"
-          },
-          {
-            "name": "Gradient",
-            "value": "gradient"
-          },
-          {
-            "name": "Background Image",
-            "value": "bg-image"
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "layout",
-        "label": "Layout",
-        "options": [
-          {
-            "name": "1 Column",
-            "value": "one-column"
-          },
-          {
-            "name": "2 Column Grid",
-            "value": "two-column"
+            "name": "Highlight",
+            "value": "highlight"
           }
         ]
       }
