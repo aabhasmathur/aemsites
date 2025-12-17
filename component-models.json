@@ -257,13 +257,67 @@
         "description": "The label shown for this section in the Content Tree"
       },
       {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Style",
+        "component": "select",
+        "name": "color",
+        "label": "Color",
         "options": [
           {
-            "name": "Highlight",
-            "value": "highlight"
+            "name": "Green",
+            "value": "green"
+          },
+          {
+            "name": "Dark Blue",
+            "value": "dark-blue"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Light Blue",
+            "value": "light-blue"
+          },
+          {
+            "name": "Gradient",
+            "value": "gradient"
+          },
+          {
+            "name": "Background Image",
+            "value": "bg-image"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "size",
+        "label": "Size",
+        "options": [
+          {
+            "name": "Full Width",
+            "value": "full-width"
+          },
+          {
+            "name": "Full Width with Padding",
+            "value": "full-width-padding"
+          },
+          {
+            "name": "Container",
+            "value": "container"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "layout",
+        "label": "Layout",
+        "options": [
+          {
+            "name": "1 Column",
+            "value": "1-column"
+          },
+          {
+            "name": "2 Column Grid",
+            "value": "2-column"
           }
         ]
       }

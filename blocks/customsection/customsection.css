@@ -3,3 +3,63 @@
     background-color: #f9f9f9;
     color: green;
 }
+
+/* Color styles */
+.customsection.green {
+    background-color: green;
+    color: white;
+}
+
+.customsection.dark-blue {
+    background-color: #00008B;
+    color: white;
+}
+
+.customsection.white {
+    background-color: white;
+    color: black;
+}
+
+.customsection.light-blue {
+    background-color: lightblue;
+    color: black;
+}
+
+.customsection.gradient {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+}
+
+.customsection.bg-image {
+    background-image: url('path/to/image.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    color: white;
+}
+
+/* Size styles */
+.customsection.full-width {
+    width: 100%;
+    padding: 0;
+}
+
+.customsection.full-width-padding {
+    width: 100%;
+    padding: 20px;
+}
+
+.customsection.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Layout styles */
+.customsection.1-column {
+    display: block;
+}
+
+.customsection.2-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
