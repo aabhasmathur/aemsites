@@ -248,7 +248,7 @@
     ]
   },
   {
-    "id": "section",
+    "id": "customsection",
     "fields": [
       {
         "component": "text",

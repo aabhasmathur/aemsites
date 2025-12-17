@@ -1,35 +1,35 @@
-.section p {
+.customsection p {
     padding: 40px;
     background-color: #f9f9f9;
     color: green;
 }
 
 /* Color styles */
-.section.green {
+.customsection.green {
     background-color: green;
     color: white;
 }
 
-.section.dark-blue {
+.customsection.dark-blue {
     background-color: #00008B;
     color: white;
 }
 
-.section.white {
+.customsection.white {
     background-color: white;
     color: black;
 }
 
-.section.light-blue {
+.customsection.light-blue {
     background-color: lightblue;
     color: black;
 }
 
-.section.gradient {
+.customsection.gradient {
     background: linear-gradient(to right, #ff00, #00ff);
 }
 
-.section.bg-image {
+.customsection.bg-image {
     background-image: url('path/to/your/image.jpg'); /* Replace with actual image path */
     background-size: cover;
     background-position: center;
@@ -53,27 +53,27 @@
 }
 
 /* Size styles */
-.section.full-width {
+.customsection.full-width {
     width: 100%;
 }
 
-.section.full-width-padding {
+.customsection.full-width-padding {
     width: 100%;
     padding: 1rem;
 }
 
-.section.container {
+.customsection.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Layout and size styles on the section block */
-.section.one-column {
+/* Layout and size styles on the customsection block */
+.customsection.one-column {
   /* Default block layout - no changes needed */
 }
 
-.section.two-column {
+.customsection.two-column {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;

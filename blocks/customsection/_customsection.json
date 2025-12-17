@@ -1,15 +1,15 @@
 {
   "definitions": [
     {
-      "title": "Section",
-      "id": "section",
+      "title": "Customsection",
+      "id": "customsection",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/section/v1/section",
             "template": {
-                "name": "Section",
-              "model": "section"
+                "name": "Customsection",
+              "model": "customsection"
             }
           }
         }
@@ -18,7 +18,7 @@
   ],
   "models": [
     {
-      "id": "section",
+      "id": "customsection",
       "fields": [
         {
           "component": "text",
@@ -67,7 +67,7 @@
               "value": "bg-image"
             }
           ]
-        }
+        } 
       ]
     }
   ],
