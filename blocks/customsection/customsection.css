@@ -52,14 +52,3 @@
     margin: 0 auto;
     padding: 20px;
 }
-
-/* Layout styles */
-.customsection.1-column {
-    display: block;
-}
-
-.customsection.2-column {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
