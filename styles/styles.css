@@ -256,3 +256,7 @@ main .section.highlight {
   padding: 40px 0;
 }
 
+main .section.green {
+  background-color: green;
+}
+
