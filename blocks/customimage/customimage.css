@@ -1,12 +1,12 @@
 .customimage picture,
 
-.imagerandom img {
-  width: 10%;
+.customimage img {
+  width: 100%;
   height: auto;
   background-color: red;
 }
 
-.imagerandom-wrapper {
+.customimage-wrapper {
   width: 10%;
   height: auto;
   background-color: red;
