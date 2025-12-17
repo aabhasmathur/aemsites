@@ -65,25 +65,6 @@
         },
         {
           "component": "select",
-          "name": "size",
-          "label": "Size",
-          "options": [
-            {
-              "name": "Full Width",
-              "value": "full-width"
-            },
-            {
-              "name": "Full Width with Padding",
-              "value": "full-width-padding"
-            },
-            {
-              "name": "Container",
-              "value": "container"
-            }
-          ]
-        },
-        {
-          "component": "select",
           "name": "layout",
           "label": "Layout",
           "options": [
