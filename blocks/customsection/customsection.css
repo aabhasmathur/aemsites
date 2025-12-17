@@ -1,54 +1,54 @@
-.customsection p {
-    padding: 40px;
-    background-color: #f9f9f9;
-    color: green;
+.customsection .text.block p.green {
+  color: green;
 }
 
-/* Color styles */
-.customsection.green {
-    background-color: green;
-    color: white;
+.customsection .text.block p.dark-blue {
+  color: #00008b;
 }
 
-.customsection.dark-blue {
-    background-color: #00008B;
-    color: white;
+.customsection .text.block p.white {
+  color: white;
 }
 
-.customsection.white {
-    background-color: white;
-    color: black;
+.customsection .text.block p.light-blue {
+  color: #add8e6;
 }
 
-.customsection.light-blue {
-    background-color: lightblue;
-    color: black;
+.customsection .text.block p.gradient {
+  background: linear-gradient(to right, #ff00, #00f);
+  background-clip: text;
+  -webkit-background-clip: text; /* stylelint-disable-line property-no-vendor-prefix */
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback for non-WebKit browsers */
 }
 
-.customsection.gradient {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    color: white;
+.customsection .text.block p.bg-image {
+  background-image: url('path/to/your/image.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is visible on image */
 }
 
-.customsection.bg-image {
-    background-image: url('path/to/image.jpg'); /* Replace with actual image path */
-    background-size: cover;
-    color: white;
+.customsection.one-column {
+  /* Default block layout - no changes needed */
 }
 
-/* Size styles */
+.customsection.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
 .customsection.full-width {
-    width: 100%;
-    padding: 0;
+  width: 100%;
 }
 
 .customsection.full-width-padding {
-    width: 100%;
-    padding: 20px;
+  width: 100%;
+  padding: 1rem;
 }
 
 .customsection.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }

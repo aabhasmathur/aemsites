@@ -257,6 +257,12 @@
         "description": "The label shown for this section in the Content Tree"
       },
       {
+        "component": "text",
+        "name": "content",
+        "label": "Content",
+        "description": "The text content for the inner text block"
+      },
+      {
         "component": "select",
         "name": "color",
         "label": "Color",
@@ -313,11 +319,11 @@
         "options": [
           {
             "name": "1 Column",
-            "value": "1-column"
+            "value": "one-column"
           },
           {
             "name": "2 Column Grid",
-            "value": "2-column"
+            "value": "two-column"
           }
         ]
       }
