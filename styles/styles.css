@@ -273,7 +273,7 @@ main .section.light-blue {
 }
 
 main .section.gradient {
-  background: linear-gradient(to bottom, #ff0000, #00ff00);
+  background: linear-gradient(to bottom, #ff00, #37d737);
 }
 
 main .section.bg-image {
