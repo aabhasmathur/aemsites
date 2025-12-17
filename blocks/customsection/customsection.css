@@ -1,10 +1,10 @@
 .section p {
     padding: 40px;
-    background-color: #f9f9f9;
+    background-color: red;
     color: green;
 }
 
-/* Color styles */
+
 .section.green {
     background-color: green;
     color: white;
@@ -30,12 +30,12 @@
 }
 
 .section.bg-image {
-    background-image: url('path/to/your/image.jpg'); /* Replace with actual image path */
+    background-image: url('path/to/your/image.jpg'); 
     background-size: cover;
     background-position: center;
 }
 
-/* Text color styles applied to inner text blocks */
+
 .text.block.green p {
   color: green;
 }
@@ -52,7 +52,7 @@
   color: #add8e6;
 }
 
-/* Size styles */
+
 .section.full-width {
     width: 100%;
 }
@@ -68,10 +68,8 @@
     padding: 20px;
 }
 
-/* Layout and size styles on the section block */
-.section.one-column {
-  /* Default block layout - no changes needed */
-}
+
+
 
 .section.two-column {
   display: grid;
