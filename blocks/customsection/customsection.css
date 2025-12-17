@@ -26,30 +26,56 @@
 }
 
 .customsection.gradient {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    color: white;
+    background: linear-gradient(to right, #ff00, #00ff);
 }
 
 .customsection.bg-image {
-    background-image: url('path/to/image.jpg'); /* Replace with actual image path */
+    background-image: url('path/to/your/image.jpg'); /* Replace with actual image path */
     background-size: cover;
-    color: white;
+    background-position: center;
+}
+
+/* Text color styles applied to inner text blocks */
+.text.block.green p {
+  color: green;
+}
+
+.text.block.dark-blue p {
+  color: #00008b;
+}
+
+.text.block.white p {
+  color: white;
+}
+
+.text.block.light-blue p {
+  color: #add8e6;
 }
 
 /* Size styles */
 .customsection.full-width {
     width: 100%;
-    padding: 0;
 }
 
 .customsection.full-width-padding {
     width: 100%;
-    padding: 20px;
+    padding: 1rem;
 }
 
 .customsection.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+/* Layout and size styles on the customsection block */
+.customsection.one-column {
+  /* Default block layout - no changes needed */
+}
+
+.customsection.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
