@@ -257,6 +257,25 @@ main .section.highlight {
 }
 
 main .section.green {
-  background-color: green;
+  background: green;
 }
 
+main .section.dark-blue {
+  background: darkblue;
+}
+
+main .section.white {
+  background: white;
+}
+
+main .section.light-blue {
+  background: lightblue;
+}
+
+main .section.gradient {
+  background: linear-gradient(to bottom, #ff0000, #00ff00);
+}
+
+main .section.bg-image {
+  background: green;
+}
