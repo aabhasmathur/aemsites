@@ -144,14 +144,14 @@
         },
         {
           "title": "Section",
-          "id": "customsection",
+          "id": "section",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/section/v1/section",
                 "template": {
                   "name": "Section",
-                  "model": "customsection"
+                  "model": "section"
                 }
               }
             }
