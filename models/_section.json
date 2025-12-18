@@ -59,6 +59,40 @@
               "value": "bg-image"
             }
           ]
+        },
+         {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Width",
+          "options": [
+            {
+              "name": "FullWidth",
+              "value": "full-width"
+            },
+            {
+              "name": "FullWidth with Padding",
+              "value": "full-width-padding"
+            },
+            {
+              "name": "Container",
+              "value": "container"
+            }
+          ]
+        },
+         {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Label",
+          "options": [
+            {
+              "name": "Single Column",
+              "value": "single-column"
+            },
+            {
+              "name": "Multi Column",
+              "value": "multi-column-2"
+            }
+          ]
         }
       ]
     }
