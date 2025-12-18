@@ -500,39 +500,13 @@ function decorateSections(main) {
       const meta = readBlockConfig(sectionMeta);
       Object.keys(meta).forEach((key) => {
         if (key === 'style-color' || key === 'style-width' || key === 'style-layout') {
-//added code
-const styles = [
-  meta['style-color'],
-  meta['style-width'],
-  meta['style-layout']
-]
-  .filter(Boolean)
-  .flatMap((value) =>  value
-      .split(',')
-      .map((style) => toClassName(style.trim()))
-  );
-
-styles.forEach((style) => section.classList.add(style));
-
-
-
-
-
-
-
-
-
-
-
-
-          // const styles = meta['style-color']
-          //   .split(',')
-          //   .filter((style) => style)
-          //   .map((style) => toClassName(style.trim()));
-          // styles.forEach((style) => section.classList.add(style));
-
-
-
+          const styles = [meta['style-color'],meta['style-width'],meta['style-layout']]
+            .filter(Boolean)
+            .join(',') 
+            .split(',')
+            .filter((style) => style)
+            .map((style) => toClassName(style.trim()));
+          styles.forEach((style) => section.classList.add(style));
         } else {
           section.dataset[toCamelCase(key)] = meta[key];
         }
