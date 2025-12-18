@@ -500,7 +500,7 @@ function decorateSections(main) {
       const meta = readBlockConfig(sectionMeta);
       Object.keys(meta).forEach((key) => {
         if (key === 'style-color' || key === 'style-width' || key === 'style-layout') {
-          const styles = [meta['style-color'],meta['style-width'],meta['style-layout']]
+          const styles = [meta['style-color'], meta['style-width'], meta['style-layout']]
             .filter(Boolean)
             .join(',') 
             .split(',')
