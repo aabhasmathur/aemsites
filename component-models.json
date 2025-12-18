@@ -130,7 +130,7 @@
       },
       {
         "component": "multiselect",
-        "name": "style",
+        "name": "style-color",
         "label": "Style",
         "options": [
           {
@@ -165,7 +165,7 @@
       },
       {
         "component": "multiselect",
-        "name": "style",
+        "name": "style-width",
         "label": "Width",
         "options": [
           {
@@ -184,7 +184,7 @@
       },
       {
         "component": "multiselect",
-        "name": "style",
+        "name": "style-layout",
         "label": "Label",
         "options": [
           {
