@@ -298,14 +298,14 @@ main.section.container{
   box-sizing: border-box; 
 }
 
-main .section.single-column{
- display: grid;
+main .section.single-column div{
+  display: grid;
   grid-template-columns: 1fr;
 }
 
-main .section.multi-column-2{
- display: grid;
-grid-template-columns: 1fr 1fr; /* can be repeat(2, 1fr); */
+main .section.multi-column-2 div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* can be repeat(2, 1fr); */
   gap: 20px;
 }
 
