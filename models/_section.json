@@ -27,7 +27,7 @@
         },
         {
           "component": "multiselect",
-          "name": "styleColor",
+          "name": "style-color",
           "label": "Style",
           "options": [
             {
