@@ -502,7 +502,7 @@ function decorateSections(main) {
         if (key === 'style-color' || key === 'style-width' || key === 'style-layout') {
           const styles = [meta['style-color'], meta['style-width'], meta['style-layout']]
             .filter(Boolean)
-            .join(',') 
+            .join(',')
             .split(',')
             .filter((style) => style)
             .map((style) => toClassName(style.trim()));
