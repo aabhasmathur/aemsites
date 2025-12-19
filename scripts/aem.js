@@ -499,10 +499,8 @@ function decorateSections(main) {
     if (sectionMeta) {
       const meta = readBlockConfig(sectionMeta);
       Object.keys(meta).forEach((key) => {
-        if (key === 'style-color' || key === 'style-width' || key === 'style-layout') { // style is changed along with 3 options i.e. style-color, style-width, style-layout and constant styles at line no. 503 updated accordingly then line no. 504 and 505 is added to join those 3 options
-          const styles = [meta['style-color'], meta['style-width'], meta['style-layout']]
-            .filter(Boolean)
-            .join(',')
+        if (key === 'style') {
+          const styles = meta.style
             .split(',')
             .filter((style) => style)
             .map((style) => toClassName(style.trim()));
