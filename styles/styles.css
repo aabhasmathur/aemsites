@@ -18,6 +18,10 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --green-color: #37d737;
+  --darkblue-color: #00008b;
+  --white-color: #fdfdfd;
+  --lightblue-color: #add8e6;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -258,19 +262,19 @@ main .section.highlight {
 }
 
 main .section.green {
-  background: green;
+  background-color: var(--green-color);
 }
 
 main .section.dark-blue {
-  background: darkblue;
+  background: var(--darkblue-color);
 }
 
 main .section.white {
-  background: white;
+  background: var(--white-color);
 }
 
 main .section.light-blue {
-  background: lightblue;
+  background: var(--lightblue-color);
 }
 
 main .section.gradient {
@@ -290,7 +294,7 @@ main .section.full-width-padding {
   padding: 10%;
 }
 
-main.section.container{
+main .section.container{
   max-width: 1200px;  
   margin: 0 auto;       
   padding: 0 20px;       

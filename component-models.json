@@ -130,7 +130,7 @@
       },
       {
         "component": "multiselect",
-        "name": "style-color",
+        "name": "style",
         "label": "Style",
         "options": [
           {
@@ -160,14 +160,7 @@
           {
             "name": "Background Image",
             "value": "bg-image"
-          }
-        ]
-      },
-      {
-        "component": "multiselect",
-        "name": "style-width",
-        "label": "Width",
-        "options": [
+          },
           {
             "name": "FullWidth",
             "value": "full-width"
@@ -179,14 +172,7 @@
           {
             "name": "Container",
             "value": "container"
-          }
-        ]
-      },
-      {
-        "component": "multiselect",
-        "name": "style-layout",
-        "label": "Label",
-        "options": [
+          },
           {
             "name": "Single Column",
             "value": "single-column"
