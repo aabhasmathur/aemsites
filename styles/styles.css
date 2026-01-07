@@ -22,6 +22,8 @@
   --darkblue-color: #00008b;
   --white-color: #fdfdfd;
   --lightblue-color: #add8e6;
+  --bs-primary-rgb: 40, 43, 58;
+  --bs-bg-opacity: 1;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -240,18 +242,60 @@ main > .section {
 main > .section > div {
   max-width: 1200px;
   margin: auto;
-  padding: 0 24px;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+  
+  --bs-gutter-x: 56px;
 }
 
 main > .section:first-of-type {
   margin-top: 0;
 }
 
-@media (width >= 900px) {
+@media (width >= 768px) {
   main > .section > div {
-    padding: 0 32px;
+   --bs-gutter-x: 32px;
   }
 }
+
+
+
+@media (width >= 768px) {
+     main > .section > div  {
+        max-width: 720px;
+    }
+}
+
+@media (width >= 576px) {
+     main > .section > div  {
+        max-width: 540px;
+    }
+}
+
+
+@media (width >= 1400px) {
+     main > .section > div  {
+        max-width: 1216px;
+    }
+}
+
+
+
+@media (width >= 1200px) {
+     main > .section > div  {
+        max-width: 1140px;
+    }
+}
+
+
+@media (width >= 992px) {
+     main > .section > div  {
+        max-width: 960px;
+    }
+}
+
 
 /* section metadata */
 main .section.light,
@@ -266,7 +310,7 @@ main .section.green {
 }
 
 main .section.dark-blue {
-  background: var(--darkblue-color);
+  background: rgb(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 main .section.white {
