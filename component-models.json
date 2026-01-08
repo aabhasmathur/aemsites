@@ -148,6 +148,10 @@
           {
             "name": "Background Image",
             "value": "bg-image"
+          },
+          {
+            "name": "Large Section",
+            "value": "grid--container-lg"
           }
         ]
       }

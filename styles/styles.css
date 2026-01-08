@@ -241,60 +241,60 @@ main > .section {
 
 main > .section > div {
   max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+main > .section .columns-wrapper {
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
   margin-right: auto;
   margin-left: auto;
+  width: 100%;
   
   --bs-gutter-x: 56px;
 }
+
 
 main > .section:first-of-type {
   margin-top: 0;
 }
 
-@media (width >= 768px) {
-  main > .section > div {
-   --bs-gutter-x: 32px;
-  }
-}
-
-
-
-@media (width >= 768px) {
-     main > .section > div  {
-        max-width: 720px;
+@media(width >= 48em) {
+    main > .section .columns-wrapper {
+        --bs-gutter-x: 32px
     }
 }
 
-@media (width >= 576px) {
-     main > .section > div  {
-        max-width: 540px;
+@media(width >= 36em) {
+    main > .section .columns-wrapper {
+        max-width:33.75rem
     }
 }
 
-
-@media (width >= 1400px) {
-     main > .section > div  {
-        max-width: 1216px;
+@media(width >= 48em) {
+    main > .section .columns-wrapper  {
+        max-width:45rem
     }
 }
 
-
-
-@media (width >= 1200px) {
-     main > .section > div  {
-        max-width: 1140px;
+@media(width >= 62em) {
+    main > .section .columns-wrapper  {
+        max-width:60rem
     }
 }
 
-
-@media (width >= 992px) {
-     main > .section > div  {
-        max-width: 960px;
+@media(width >= 75em) {
+    main > .section .columns-wrapper  {
+        max-width:71.25rem
     }
 }
 
+@media(width >= 87.5em) {
+    main > .section .columns-wrapper  {
+        max-width:76rem
+    }
+}
 
 /* section metadata */
 main .section.light,
