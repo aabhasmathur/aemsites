@@ -39,44 +39,8 @@
               "value": "green"
             },
             {
-              "name": "Dark Blue",
-              "value": "dark-blue"
-            },
-            {
-              "name": "White",
-              "value": "white"
-            },
-            {
-              "name": "Light Blue",
-              "value": "light-blue"
-            },
-            {
-              "name": "Gradient",
-              "value": "gradient"
-            },
-            {
               "name": "Background Image",
               "value": "bg-image"
-            },
-             {
-              "name": "FullWidth",
-              "value": "full-width"
-            },
-            {
-              "name": "FullWidth with Padding",
-              "value": "full-width-padding"
-            },
-            {
-              "name": "Container",
-              "value": "container"
-            },
-               {
-              "name": "Single Column",
-              "value": "single-column"
-            },
-            {
-              "name": "Multi Column",
-              "value": "multi-column-2"
             }
           ]
         }
