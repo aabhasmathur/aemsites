@@ -142,6 +142,10 @@
             "value": "green"
           },
           {
+            "name": "Dark Blue",
+            "value": "dark-blue"
+          },
+          {
             "name": "Background Image",
             "value": "bg-image"
           }
