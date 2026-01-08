@@ -241,7 +241,6 @@ main > .section {
 
 main > .section > div {
   max-width: 1200px;
-  margin: auto;
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
   margin-right: auto;
