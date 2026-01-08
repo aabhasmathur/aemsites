@@ -151,7 +151,7 @@
           },
           {
             "name": "Large Section",
-            "value": "grid--container-lg"
+            "value": "grid-container-lg"
           }
         ]
       }
