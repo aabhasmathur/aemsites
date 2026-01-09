@@ -156,6 +156,10 @@
           {
             "name": "Content Section",
             "value": "content"
+          },
+          {
+            "name": "Container Section",
+            "value": "container"
           }
         ]
       }

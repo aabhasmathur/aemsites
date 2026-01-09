@@ -244,13 +244,17 @@ main > .section p,h2 {
 
 }
 
+
+
+
+
+
+
 main > .section > div {
   max-width: 1200px;
   margin: auto;
   padding: 0 24px;
 }
-
-
 
 
 main > .section:first-of-type {
@@ -260,7 +264,7 @@ main > .section:first-of-type {
 
 /* Variation 1 */
 
-.section .columns-wrapper {
+.section .container {
   --bs-gutter-x: 56px;
 
   padding-right: calc(var(--bs-gutter-x) * .5);
@@ -274,37 +278,37 @@ main > .section:first-of-type {
 
 
 @media(width >= 48em) {
-    .section .columns-wrapper {
+    main .section .container {
         --bs-gutter-x: 32px
     }
 }
 
 @media(width >= 36em) {
-    .section .columns-wrapper {
+    main .section .container {
         max-width:33.75rem
     }
 }
 
 @media(width >= 48em) {
-    .section .columns-wrapper  {
+    main .section .container {
         max-width:45rem
     }
 }
 
 @media(width >= 62em) {
-   .section .columns-wrapper  {
+   main .section .container  {
         max-width:60rem
     }
 }
 
 @media(width >= 75em) {
-  .section .columns-wrapper  {
+  main .section .container  {
         max-width:71.25rem
     }
 }
 
 @media(width >= 87.5em) {
-    .section .columns-wrapper  {
+    main .section .container  {
         max-width:76rem
     }
 }
@@ -313,15 +317,16 @@ main > .section:first-of-type {
 
 /* variation 2 */
 
-.grid-container-lg .columns-wrapper  {
-    max-width: 1440px !important;
+main .grid-container-lg > div:first-of-type {
+    max-width: 1440px;
   padding: 0 1rem;
 }
+
 
 /* 
 variation 3 */
 
-.content .columns-wrapper   {
+main .content > div:first-of-type {
     display: flex;
     flex-direction: column;
     padding: 3.75rem 0;
@@ -331,13 +336,13 @@ variation 3 */
 }
 
 @media(width >=48em) {
-    .content .columns-wrapper   {
+main .content > div:first-of-type  {
         max-width:1184px
     }
 }
 
 @media(width >=62em) {
-    .content .columns-wrapper   {
+main .content > div:first-of-type  {
         gap:60px;
         padding: 6rem 0;
         align-items: flex-start
@@ -345,7 +350,7 @@ variation 3 */
 }
 
 @media(width >=75em) {
-    .content .columns-wrapper   {
+ main .content > div:first-of-type {
         min-width:1184px
     }
 }
