@@ -239,6 +239,11 @@ main > .section {
 
 }
 
+main > .section .p {
+  color: white;
+
+}
+
 main > .section > div {
   max-width: 1200px;
   margin: auto;
@@ -265,37 +270,37 @@ main > .section:first-of-type {
 }
 
 @media(width >= 48em) {
-    main > .section .columns-wrapper {
+    .section .columns-wrapper {
         --bs-gutter-x: 32px
     }
 }
 
 @media(width >= 36em) {
-    main > .section .columns-wrapper {
+    .section .columns-wrapper {
         max-width:33.75rem
     }
 }
 
 @media(width >= 48em) {
-    main > .section .columns-wrapper  {
+    .section .columns-wrapper  {
         max-width:45rem
     }
 }
 
 @media(width >= 62em) {
-    main > .section .columns-wrapper  {
+   .section .columns-wrapper  {
         max-width:60rem
     }
 }
 
 @media(width >= 75em) {
-    main > .section .columns-wrapper  {
+  .section .columns-wrapper  {
         max-width:71.25rem
     }
 }
 
 @media(width >= 87.5em) {
-    main > .section .columns-wrapper  {
+    .section .columns-wrapper  {
         max-width:76rem
     }
 }
