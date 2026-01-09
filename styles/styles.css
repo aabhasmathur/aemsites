@@ -245,7 +245,9 @@ main > .section > div {
   padding: 0 24px;
 }
 
-main > .section .columns-wrapper {
+
+
+.section .columns-wrapper {
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
   margin-right: auto;
@@ -256,10 +258,6 @@ main > .section .columns-wrapper {
 }
 
 
-.grid-container-lg .container {
-    max-width: 1440px;
-    padding: 0 1rem;
-}
 
 
 main > .section:first-of-type {
@@ -301,6 +299,45 @@ main > .section:first-of-type {
         max-width:76rem
     }
 }
+
+.grid-container-lg .columns-wrapper  {
+    max-width: 1440px !important;
+  padding: 0 1rem;
+}
+
+
+.content .columns-wrapper   {
+    display: flex;
+    flex-direction: column;
+    padding: 3.75rem 0;
+    gap: 36px;
+    width: 100%;
+    max-width: 484px
+}
+
+@media(width >=48em) {
+    .content .columns-wrapper   {
+        max-width:1184px
+    }
+}
+
+@media(width >=62em) {
+    .content .columns-wrapper   {
+        gap:60px;
+        padding: 6rem 0;
+        align-items: flex-start
+    }
+}
+
+@media(width >=75em) {
+    .content .columns-wrapper   {
+        min-width:1184px
+    }
+}
+
+
+
+
 
 /* section metadata */
 main .section.light,

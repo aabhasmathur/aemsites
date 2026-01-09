@@ -152,6 +152,10 @@
           {
             "name": "Large Section",
             "value": "grid-container-lg"
+          },
+          {
+            "name": "Content Section",
+            "value": "content"
           }
         ]
       }
